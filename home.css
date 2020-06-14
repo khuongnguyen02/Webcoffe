@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Tat ca cac the deu bi dinh chuong*/
+}
+body{
+    font-family: 'Helvatica', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+/*shorthand*/
+.header,.main,.footer{
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+
+.containerhead{
+    width: 2000px;
+    margin: 0 auto;
+    /*auto cho no nam giua man hinh*/
+    /*sua man hinh la xong*/
+    height: 113px;
+    background-color: white;
+
+}
+
+.header-left{
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.header-right{
+    float: left;
+    width: 60%;
+    margin-left: 30px;
+}
+
+
+
+
+.header{
+    padding: 20px 0px;
+    background-color: white;
+    float: left;
+    position: fixed;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 400;
+    color: #c38346;
+}
+
+logo1{
+    font-size: 30px;
+}
+.logo2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #442a13;
+
+    /*padding-left: px;*/
+
+}
+
+.menubutton{
+
+    background-color: #442a13;
+    padding: 2px 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.menu li{
+    float: left;
+    margin-left: 35px;
+    /*neu khong muon co cham thi list style: none*/
+    padding: 10px 0;
+    list-style: none;
+}
+
+.menu li a{
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    /*chuyen doi chu*/
+    color: #c38346;
+    font-weight: 400;
+    padding: 5px;
+}
+.menu li a:hover{
+    background-color: #442a13;
+    padding: 3px;
+}
+.menu li a.menubutton{
+    color: white;
+    text-transform: none;
+}
